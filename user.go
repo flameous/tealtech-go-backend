@@ -8,8 +8,8 @@ type BotUser struct {
 }
 
 const (
-	stateNewUser  = "state_new_user"
-	stateUserSmth = "state_smth"
+	stateNewUser   = "state_new_user"
+	stateUserSmth  = "state_smth"
 	stateUserSmth2 = "state_smth"
 	stateUserSmth3 = "state_smth"
 	stateUserSmth4 = "state_smth"

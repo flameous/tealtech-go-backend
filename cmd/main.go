@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/flameous/tealtech-go-backend"
+	"github.com/flameous/tealtech-go-backend/server"
 	"log"
 )
 
@@ -10,8 +11,8 @@ func init() {
 }
 
 func main() {
-	s := tealtech.Server{}
-	s.SetDatabase(tealtech.NewDumpDatabase())
-
+	s := server.NewServer()
+	//s.SetDatabase(tealtech.NewDumpDatabase())
+	s.SetDatabase(tealtech.NewAidBoxDatabase())
 	s.Run()
 }
