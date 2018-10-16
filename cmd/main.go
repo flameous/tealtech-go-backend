@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/flameous/tealtech-go-backend"
-	"github.com/flameous/tealtech-go-backend/server"
-	"log"
+  "github.com/flameous/tealtech-go-backend"
+  "github.com/flameous/tealtech-go-backend/server"
+  "log"
 )
 
 func init() {
